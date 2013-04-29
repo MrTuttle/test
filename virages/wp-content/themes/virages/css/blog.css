@@ -1,0 +1,25 @@
+
+.sanchez {
+   font-family: "Sanchez", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   /*font-weight: 200*/;
+}
+.bebas {font-family: 'bebas_neueregular',Helvetica,Arial,sans-serif; font-weight: inherit;}
+
+body {
+   font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.post {margin-top: 20px; padding-bottom: 30px; border-bottom: 1px solid #ededed;}
+.post:first-child {margin-top:0;}
+.post:last-child {border-bottom: none;}
+.post h4{font-size: 1.6em;}
+.the_date{color:#00516C/*#95daf0*/;}
+.post img {margin-bottom: 1em;}
+
+#desc-entreprise {-webkit-font-smoothing:antialiased;}
+#desc-entreprise p{ color: green; }
+
+#pieddepage{ -webkit-font-smoothing:antialiased;}
+#pieddepage h5, #pieddepage a, #pieddepage p {letter-spacing: 1px;}
+.suite { padding-left: 10px;}

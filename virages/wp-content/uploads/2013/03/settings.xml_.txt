@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <groups>
+        <group>
+            <ID>31</ID>
+            <post_content>Champs :</post_content>
+            <post_title>Paramètres de formation</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_fields>,numero-de-formation,nombre-de-participants,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,formations,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>4143fc203c140988394a954f2f3c914f</hash>
+            <checksum>4143fc203c140988394a954f2f3c914f</checksum>
+            <__types_id>parametres-de-formation</__types_id>
+            <__types_title>Paramètres de formation</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>nombre-de-participants</id>
+            <slug>nombre-de-participants</slug>
+            <type>numeric</type>
+            <name>Nombre de participants</name>
+            <description>Nombre de participants à la formation</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>Ce champ est requis</message>
+                    </required>
+                    <number>
+                        <active>1</active>
+                        <message>Veuillez saisir des données numériques</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <__types_id>nombre-de-participants</__types_id>
+            <__types_title>Nombre de participants</__types_title>
+            <hash>74e50a22b8337812da48e47f95cedcf3</hash>
+            <checksum>74e50a22b8337812da48e47f95cedcf3</checksum>
+        </field>
+        <field>
+            <id>numero-de-formation</id>
+            <slug>numero-de-formation</slug>
+            <type>numeric</type>
+            <name>Numéro de formation</name>
+            <description>Numéro de la formation</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>Ce champ est requis</message>
+                    </required>
+                    <number>
+                        <active>1</active>
+                        <message>Veuillez saisir des données numériques</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <__types_id>numero-de-formation</__types_id>
+            <__types_title>Numéro de formation</__types_title>
+            <hash>7677c608ec8205900cc2420c6a83f7dd</hash>
+            <checksum>7677c608ec8205900cc2420c6a83f7dd</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <description>Ajouter une formation</description>
+            <show_ui>1</show_ui>
+            <exclude_from_search>0</exclude_from_search>
+            <hierarchical>0</hierarchical>
+            <query_var></query_var>
+            <menu_position></menu_position>
+            <labels>
+                <menu_name>%s</menu_name>
+                <add_new>Ajouter une formation</add_new>
+                <add_new_item>Ajouter une formation</add_new_item>
+                <edit_item>Modifier la formation</edit_item>
+                <new_item>Nouvel item</new_item>
+                <view_item>Voir la formation</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <name>Formations</name>
+                <singular_name>Formation</singular_name>
+                <parent_item_colon>Parent %s</parent_item_colon>
+                <all_items>%s</all_items>
+            </labels>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <excerpt>1</excerpt>
+            </supports>
+            <slug>formations</slug>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <id>formations</id>
+            <public>public</public>
+            <publicly_queryable>1</publicly_queryable>
+            <query_var_enabled>1</query_var_enabled>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <has_archive></has_archive>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <__types_id>formations</__types_id>
+            <__types_title>Formations</__types_title>
+            <hash>c04c86371c1e3a7b12ed5878e5b87803</hash>
+            <checksum>c04c86371c1e3a7b12ed5878e5b87803</checksum>
+        </type>
+    </types>
+</types>
