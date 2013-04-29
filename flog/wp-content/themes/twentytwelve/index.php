@@ -18,7 +18,7 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-		<div class="monObjetVisible">MON OBJET TROP VISISBLE</div>
+		<div class="monObjetVisible">MON OBJET TROP VISiBLE</div>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
